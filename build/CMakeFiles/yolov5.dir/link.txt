@@ -1,0 +1,2 @@
+/usr/bin/ar qc libyolov5.a  CMakeFiles/yolov5.dir/calibrator.cpp.o
+/usr/bin/ranlib libyolov5.a
