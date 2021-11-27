@@ -10,6 +10,7 @@
 ③ 上交的opt4需要C++17上才能编译, 而trtx则需要c++14  `貌似`
 
 前置安装：
+    使用vscode
     需要ubuntu系统>=18  https://www.roboxx.ltd/2104.html
 1、cuda>=11
 2、cudnn  https://www.roboxx.ltd/2182.html
@@ -25,6 +26,8 @@
 注：完成前置安装后，需要先进行编译，将build文件夹删掉，在建立一个build并进入其中执行
 cmake ..
 make
+
+有兴趣的可以学学vscode和cmake的知识，视频：https://www.bilibili.com/video/BV1fy4y1b7TC?spm_id_from=333.999.0.0
 
 编译成功后会生成main可执行文件，使用./main 运行
 视频和模型github上传不了，编译成功后需要的找我拷贝。模型是yolov5，视频为1g多。
